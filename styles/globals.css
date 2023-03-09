@@ -1,0 +1,115 @@
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+ .logo {
+   display: flex;
+  justify-content: center;
+  align-content: center;
+ margin-top: 10px;
+ margin-bottom: 50px;
+}
+
+
+.btn{
+  display: flex;
+ margin-top: 10%;
+ justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.btn button{
+  padding: 12px 16px 12px 42px;
+  background-color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 22px;
+  cursor: pointer;
+  color: rgb(61, 130, 175);
+  border : 1px solid rgb(61, 130, 175);
+  margin-bottom: 15px;
+  
+
+}
+
+.btn button:hover{
+  background-color: rgb(61, 130, 175);
+  color:white ;
+}
+h3{
+  margin: auto;
+  margin-bottom:10px ;
+}
+
+.navbar h3{
+  float: left;
+}
+
+.navbar{
+  background-color: rgb(177, 188, 197);
+  height: 40px;
+ flex-direction: row;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #2C3E50;
+}
+
+
+
+.chat_room{
+  height: 100vh;
+}
+
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60%;
+  color: azure;
+}
+
+.input {
+  position: fixed;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+
+.loader h1 {
+  text-align: center;
+}
+
+.input button {
+  padding: 15px;
+}
+.input input {
+  padding: 15px;
+  width: 50%;
+  
+}
+
+.msg{
+  padding: 0;
+  margin-top: 10px;
+}
+
+.msg span{
+  color: aliceblue;
+  background-color: #2f4f4f;
+  margin: auto; 
+  padding: 8px;
+  border-radius: 5px;
+  
+  
+}
